@@ -78,7 +78,7 @@ long long int  pascal(int row, int col, int width,  vector<vector<long long int>
 int main() {
 
     //Bridges
-    Bridges *bridges =  new Bridges(3333, "meaganeggert", "1483739998773");
+    Bridges *bridges =  new Bridges(/*YOURASSIGNMENT#*/, /*"YOURNAMEHERE"*/, /*"YOURNUMHERE"*/);
     bridges->setTitle("Triangle Art - Mashup");
     bridges->setDescription("A visualization of a triangle using a combination of barycentric coordinates and Pascal's triangle mod 2 to create a gradient texture. If the value at the test point is odd, the program will color the point based on its relationship to the triangle's 3 vertices. If the point is even, it will color the space black.");
 
